@@ -1,0 +1,202 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pibble.walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"Body": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, 0.1, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2778": {
+							"vector": [0, -0.15, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Leg1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1389": {
+							"vector": [27.5, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-25, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Leg2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-25, 0, 0]
+						},
+						"0.3333": {
+							"vector": [25, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Leg3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [30, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-20, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Leg4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [-17.5, 0, 0]
+						},
+						"0.3333": {
+							"vector": [22.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.pibble.idle": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"Body": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0.04, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [0, 0.04, 0]
+						},
+						"5.0": {
+							"vector": [0, 0, 0]
+						},
+						"6.0": {
+							"vector": [0, 0, 0]
+						},
+						"7.0": {
+							"vector": [0, 0.04, 0]
+						},
+						"8.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 7.5, 0]
+						},
+						"4.0417": {
+							"vector": [0, 0, 0]
+						},
+						"6.0": {
+							"vector": [0, -20, 0]
+						},
+						"8.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.pibble.sit": {
+			"animation_length": 0,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": [-50.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, -0.25, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"vector": [0, 0.5, 0]
+					}
+				},
+				"Leg1": {
+					"position": {
+						"vector": [0, 0.75, 0]
+					},
+					"scale": {
+						"vector": [1, 1.4, 1]
+					}
+				},
+				"Leg2": {
+					"position": {
+						"vector": [0, 0.75, 0]
+					},
+					"scale": {
+						"vector": [1, 1.375, 1]
+					}
+				},
+				"Leg3": {
+					"position": {
+						"vector": [0, 0, -0.75]
+					}
+				},
+				"Leg4": {
+					"position": {
+						"vector": [0, 0, -0.75]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
