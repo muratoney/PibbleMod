@@ -32,16 +32,16 @@ public class PibbleEntity extends WolfEntity implements GeoEntity {
         return WolfEntity.createWolfAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 10)
                 .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 4.0f)
-                .add(EntityAttributes.GENERIC_ATTACK_SPEED, 1.0f)
+                .add(EntityAttributes.GENERIC_ATTACK_SPEED, .7f)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, .5f);
     }
 
     @Override
     protected void initGoals(){
         this.goalSelector.add(1, new SwimGoal(this));
-        this.goalSelector.add(2, new FollowOwnerGoal(this, 0.5f, 10.0F, 2.0F));
-        this.goalSelector.add(3, new SitGoal(this));
-        this.goalSelector.add(4, new MeleeAttackGoal(this, 1.2D, false));
+        this.goalSelector.add(3, new FollowOwnerGoal(this, 0.5f, 5.0F, 50.0F));
+        this.goalSelector.add(4, new SitGoal(this));
+        this.goalSelector.add(2, new MeleeAttackGoal(this, 1.2D, false));
         this.goalSelector.add(5, new WanderAroundFarGoal(this, .3f, 1));
         this.goalSelector.add(6, new LookAtEntityGoal(this, PlayerEntity.class, 8.0F));
         this.goalSelector.add(6, new LookAroundGoal(this));

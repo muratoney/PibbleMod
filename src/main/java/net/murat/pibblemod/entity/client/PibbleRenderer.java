@@ -24,9 +24,6 @@ public class PibbleRenderer extends GeoEntityRenderer<PibbleEntity> {
         if(entity.isBaby()){
             poseStack.scale(1f, 1f, 1f);
         }
-        else{
-            poseStack.scale(2.5f, 2.5f, 2.5f);
-        }
         super.render(entity, entityYaw, partialTick, poseStack, bufferSource, packedLight);
     }
 }
