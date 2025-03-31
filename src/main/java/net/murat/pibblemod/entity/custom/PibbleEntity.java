@@ -62,16 +62,16 @@ public class PibbleEntity extends WolfEntity implements GeoEntity {
         if (this.isInSittingPose()) {
             // Sitting animation
             pibbleEntityAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.pibble.sit", Animation.LoopType.HOLD_ON_LAST_FRAME));
-            this.setSitting(true);  // Ensuring the entity is marked as sitting
+            this.setSitting(true);
             return PlayState.CONTINUE;
         }
 
         if (pibbleEntityAnimationState.isMoving()) {
             // Walking animation
             pibbleEntityAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.pibble.walk", Animation.LoopType.LOOP));
+            pibbleEntityAnimationState.getController().setAnimationSpeed(2);
             return PlayState.CONTINUE;
         }
-
         // Idle animation when not sitting and not moving
         pibbleEntityAnimationState.getController().setAnimation(RawAnimation.begin().then("animation.pibble.idle", Animation.LoopType.LOOP));
         return PlayState.CONTINUE;

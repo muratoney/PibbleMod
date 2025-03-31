@@ -22,7 +22,7 @@ public class PibbleRenderer extends GeoEntityRenderer<PibbleEntity> {
     @Override
     public void render(PibbleEntity entity, float entityYaw, float partialTick, MatrixStack poseStack, VertexConsumerProvider bufferSource, int packedLight) {
         if(entity.isBaby()){
-            poseStack.scale(1f, 1f, 1f);
+            poseStack.scale(.5f, .5f, .5f);
         }
         super.render(entity, entityYaw, partialTick, poseStack, bufferSource, packedLight);
     }
