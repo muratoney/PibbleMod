@@ -12,7 +12,7 @@ import net.murat.pibblemod.entity.ModEntities;
 
 public class ModEntitySpawns {
     public static void addSpawns() {
-        BiomeModifications.addSpawn(BiomeSelectors.includeByKey(BiomeKeys.PLAINS, BiomeKeys.DARK_FOREST, BiomeKeys.FOREST, BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA),
+        BiomeModifications.addSpawn(BiomeSelectors.includeByKey(BiomeKeys.PLAINS, BiomeKeys.DARK_FOREST, BiomeKeys.FOREST, BiomeKeys.TAIGA, BiomeKeys.OLD_GROWTH_SPRUCE_TAIGA, BiomeKeys.OLD_GROWTH_PINE_TAIGA),
                 SpawnGroup.CREATURE, ModEntities.PIBBLE, 10, 1, 5);
 
         SpawnRestriction.register(ModEntities.PIBBLE, SpawnLocationTypes.ON_GROUND,
