@@ -21,9 +21,5 @@ public class ModItems {
 
     public static void registerModItems() {
         PibbleMod.LOGGER.info("Registering Mod Items for " + PibbleMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PIBBLE_SPAWN_EGG);
-        });
     }
 }
