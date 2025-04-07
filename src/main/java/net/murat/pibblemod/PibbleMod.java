@@ -24,8 +24,5 @@ public class PibbleMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModWorldGeneration.generateModWorldGen();
-
-
-//		Registry.register(Registries.ITEM, Identifier.of(MOD_ID, "pibble_spawn_egg"), ModItems.PIBBLE_SPAWN_EGG);
 	}
 }
