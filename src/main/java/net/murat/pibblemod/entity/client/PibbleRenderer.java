@@ -9,7 +9,6 @@ import net.minecraft.util.Util;
 import net.murat.pibblemod.PibbleMod;
 import net.murat.pibblemod.entity.custom.PibbleEntity;
 import net.murat.pibblemod.entity.custom.PibbleVariant;
-import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 import java.util.Map;

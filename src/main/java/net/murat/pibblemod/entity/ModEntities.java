@@ -6,8 +6,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
-import net.murat.pibblemod.PibbleMod;
 import net.murat.pibblemod.entity.custom.PibbleEntity;
 
 

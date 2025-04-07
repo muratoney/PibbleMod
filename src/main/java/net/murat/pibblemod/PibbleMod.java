@@ -3,9 +3,6 @@ package net.murat.pibblemod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
 import net.murat.pibblemod.entity.ModEntities;
 import net.murat.pibblemod.entity.custom.PibbleEntity;
 import net.murat.pibblemod.item.ModItemGroups;
